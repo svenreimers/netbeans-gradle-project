@@ -1,8 +1,9 @@
 language: java
 jdk:
   - oraclejdk7
+  - oraclejdk8
   - openjdk7
 script: "./gradlew check testAllFiltered"
 branches:
   only:
-    - NetBeans_nightly
+    - NetBeans81
